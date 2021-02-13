@@ -1,7 +1,7 @@
 * {
     /*border: 1px solid red !important;*/
     font-family: 'Rajdhani', sans-serif;
-    
+
      /*background-color: darkgray; */
 }
 
@@ -34,7 +34,11 @@
 }
 
 .margin-add {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+}
+
+.margin-top-add{
+    margin-top: 40px;
 }
 
 img {
@@ -52,6 +56,13 @@ a {
 figcaption {
     font-style: italic;
     text-align: center;
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 5px;
 }
 
 /*

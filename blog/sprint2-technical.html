@@ -3,9 +3,10 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Sprint 2</title>
+  <title>Display inline vs inline block</title>
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/sprint2.css">
 
 <script src="js/bootstrap.min.js"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -32,7 +33,7 @@
     <div class="row">
       <div class="col-lg-3 text-uppercase">
                               <h3>Blog</h3>
-                              <h3><a href="../technical.html">- Technical</a></h3>
+                              <h3><a href="../technical.html">- Technical-></a></h3>
                               <h3 class = "margin-add"><a href="../core.html">- Core</a></h3>
                               <h3>  </h3>
                               <h4><a href="../about.html">About Me</a></h4>
@@ -41,7 +42,43 @@
       
       <div class="col-lg-9">       
 
-        </figure>
+        <h1>Display: inline vs Display: inline-block</h1>
+        <hr></hr>
+        <h2>Block Elements and Inline Elements</h2>
+        <p>Before we can understand the difference between the <mark>display: inline</mark> and <mark>display: inline-block</mark> properties, we must first understand what <strong>Block Elements</strong> and <strong>Inline Elements</strong> are. Simply put, Block elements are displayed from top to bottom while Inline elements are displayed in the same line, going from left to right.</p>
+        <p>Some examples of Block elements are &lt;p&gt; and &lt;div&gt; while examples of Inline elements include &lt;span&gt; and &lt;img&gt;. 
+          Check out <a href="https://www.w3schools.com/html/html_blocks.asp">W3schools</a> for a list of all the Block and Inline elements.</p>
+        <h2 class="margin-top-add">An Example...</h2>
+          <p>One neat trick in web page creation is that we can change the display properties of an element. In a CSS file, we can add a  <mark>display:</mark> command to change a Block element to Inline and vice versa.</p>
+        <p>Let's say we have an unordered list (&lt;ul&gt;) of 3 simple boxes. Since &lt;ul&gt; is a Block Element, by default, the three boxes would be shown one under the other. <em>(HTML and CSS code <a href ="../images/native.png" target="_blank">here</a>).</em></p> 
+        <ul>
+          <li class="native">Box 1</li>
+          <li class="native">Box 2</li>
+          <li class="native">Box 3</li>
+        </ul>
+        <h2 class="margin-top-add">Display: inline</h2>
+        <p>What if we want to make these boxes be next to each other? Let's see what happens when we change their display property to inline. To do this, we can either use <mark>display: inline</mark> or  <mark>display: inline-block</mark>. Let's try the former first.
+         <em>(<a href ="../images/inline.png" target="_blank">Code</a>).</em></p>
+        <ul>
+          <li class="inline">Box 1</li>
+          <li class="inline">Box 2</li>
+          <li class="inline">Box 3</li>
+        </ul>
+        <p class="margin-top-add">Oh no! The boxes are now showing from left to right but it looks like they've been squashed!</p>
+        <p>This is because <mark>display: inline</mark> only makes things show from left to right but it does not keep the original height and width of the items.</p>
+        <h2 class="margin-top-add">Display: inline-block</h2>
+        <p>To make sure that the boxes look the same as how they were before, we must use <mark>display: inline-block</mark>.
+          <em>(<a href ="../images/inline-block.png" target="_blank">Code</a>).</em></p></p>
+        <ul>
+          <li class="inline-block">Box 1</li>
+          <li class="inline-block">Box 2</li>
+          <li class="inline-block">Box 3</li>
+        </ul>
+        <p class="margin-top-add">Nice! These boxes look exactly as they were before, except now they are sitting next to each other instead of on top of each other.</p>
+
+        <h2 class="margin-top-add">In Summary:</h2>
+        <p class="margin-add">Just remember, both <mark>display: inline</mark> and  <mark>display: inline-block</mark> display things in the same line from left to right. THe only difference is <mark>display: inline-block</mark> preserves the element's original height and width while <mark>display: inline</mark> does not.</p>
+
       </div>
     </div>
     
