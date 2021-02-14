@@ -65,6 +65,10 @@ p {
     padding-right: 5px;
 }
 
+li {
+    font-size: 18px; 
+}
+
 /*
 .grid {
     margin: 0 auto;
