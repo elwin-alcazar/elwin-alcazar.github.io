@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Fundamental</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+  <link rel="icon" href="../images/elwin2.jpg">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 margin-add">
+          <h1><a href="../index.html"><strong>ELWIN</strong></a></h1>
+             </div>
+
+     <div class="col-md-1 text-right ">
+      <h1>
+        <a class = "github" href="https://github.com/elwin-alcazar/" target="_blank"></a>
+      
+    
+   </div>
+   <div class="col-md-1 text-right ">
+    <h1><a class = "linkedin" href="https://www.linkedin.com/in/jan-elwin-alcazar-b76777b4/" target="_blank"></a></h1>
+ </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 text-uppercase">
+        <h3>Blog</h3>
+        <h3><a href="../technical.html">- Technical-></a></h3>
+        <h3 class = "margin-add"><a href="../core.html">- Core</a></h3>
+        <h3>  </h3>
+        <h4><a href="../about.html">About Me</a></h4>
+     </div>
+      
+      <div class="col-lg-9">       
+
+        <h1>Javascript Fundamentals</h1>
+        <hr></hr>
+        <h2>HTML vs CSS</h2>
+          <p>Allow me to explain the difference of  HTML and CSS using an analogy.</p>
+          <p>Imagine cooking a delicious dish. HTML is like the actual components of the dish - what the ingredients are, their measurements, and the method of cooking. CSS is then how you are going to present the dish you've made in an appealing way. Chefs refer to this is "plating."</p>
+          <figure>
+            <img src="../images/spam.jpg" style = width:50% alt="spam dish" class="img-responsive rounded mx-auto d-block non-opaque">  
+            <figcaption class="text-left"><a href="https://www.dessertsrequired.com/chocolate-covered-cornflakes">This is a dish that I made. I call it Spam on Rice with Ketchup on the side.</a></figcaption>
+           </figure> 
+          <hr></hr>
+        <h2 class="margin-top-add">Control flow and loops in our Daily Lives</h2>
+        
+          <p>Control flow is just a fancy term that refers to the order on how a program reads and executes lines of codes. For Javascript, it is usually in sequence from left to right and top to bottom unless it encounters a code in which there are two or more ways to proceed.
+              This happens when a block of code contains a control flow statement which provides the conditions that need to be met for it to choose the next code to execute.</p>
+              
+          <p>One example of control flow statement is a loop. In a loop, the commands will be repeated over and over until a certain condition has been met.</p>
+          <p>A good way to understand this concept is if we apply this in a real life example. </p>
+          <p>Here we have a simple dessert recipe:</p>
+          <figure>
+          <img src="../images/recipe.png" alt="recipe" class="img-responsive non-opaque">
+          <figcaption><a href="https://www.dessertsrequired.com/chocolate-covered-cornflakes">Source</a></figcaption>
+         </figure> 
+          <p class="margin-top-add">Cooking something according to a recipe is an example of a control flow since you have to do the steps in order. Otherwise you will not be able to make the dish properly.</p>
+          <p>In the above recipe, where you able to spot the loop statement? The statement "Stir until all the chocolate is melted" is a loop since you need to keep on stirring until the condition to stop was met - which is when all the chocolate have melted.</p>
+
+          
+        
+
+        
+        
+          <hr></hr>
+        <h2 class="margin-top-add">Defining the DOM</h2>
+        
+          <p>The DOM, or the Document Object Model of a web page is similar to a blueprint. It has a list of all the objects found in the web page and all of their properties (like what is the text font or background color).
+          <p>However this blueprint is pretty special - it has magical properties! If you change something in the DOM, the webpage would change as well. You can even add things that were not on the webpage before!</p>
+          
+          <p>An example of when you might interact the DOM is if you already have several paragraph elements on your web page and you wanted to assign a class to them. Using the DOM, you can just call all the paragraph elements and then assign a class to all of them instead of finding them one by one in the html and then assigning them a class one by one.</p>
+        
+          <hr></hr>
+        <h2 class="margin-top-add">Accessing Data from Arrays vs Objects.</h2>
+          
+          <p>Below we've made a JS object called "royalty."</p>
+          <img src="../images/object.png" alt="javascript object code" class="img-responsive non-opaque">
+          
+          <p>Note that each line corresponds to a property of that object. Also notice that each line follows the same format of property name : property value. For example, age is a property name and its value is 10. </p>
+          <p>To access the value of a property, we can use either of the following formats: object.propertyname or object["propertyname"]</p>
+            <img src="../images/object_call.png" alt="javascript object code" class="inline-block non-opaque"> 
+            <img src="../images/object_call2.png" alt="javascript object code" class="inline-block non-opaque"> 
+
+          <p class="margin-top-add">On the other hand, here’s an example of a JS array:</p>
+          <img src="../images/array.png" alt="javascript array code" class="img-responsive non-opaque"></p>
+          <p>To access an item of the array, we just need to specify its order in the array. Since JS arrays use zer-based indexing, the first item in an array has an index of 0, the second time has an index of 1 and so forth.</p>
+          <p>Thus, running weekday[1] will return Tuesday.</p>
+            <img src="../images/array_call.png" alt="javascript array code" class="img-responsive non-opaque">
+          
+          
+          <hr></hr>  
+        <h2 class="margin-top-add">On the importance of Functions</h2>
+          <p class = "margin-add">A function is a block of code that performs a specific task. This is very useful especially when you are going to do the task several times in the webpage. You can just call the function instead of writing the code all over again.</p>
+          
+
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html>
+

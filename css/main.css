@@ -1,72 +1,76 @@
 * {
-    /*border: 1px solid red !important;*/
-    font-family: 'Rajdhani', sans-serif;
+  /*border: 1px solid red !important;*/
+  font-family: "Rajdhani", sans-serif;
 
-     /*background-color: darkgray; */
+  /*background-color: darkgray; */
 }
 
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .img-thumbnail-small {
-    max-width: 64px;
-    max-height: 64px;
+  max-width: 64px;
+  max-height: 64px;
 }
 
-.github{
-    background-image: url("../images/GitHub-Mark-64px.png");
-    display: block;
-    width: 40px;
-    height: 40px;
-    background-size: 40px 40px;
+.github {
+  background-image: url("../images/GitHub-Mark-64px.png");
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-size: 40px 40px;
 }
 
-.linkedin{
-    background-image: url("../images/toppng.com-linkedin-square-logo-comments-linkedin-icon-black-981x981.png");
-    display: block;
-    width: 40px;
-    height: 40px;
-    background-size: 40px 40px;
+.linkedin {
+  background-image: url("../images/toppng.com-linkedin-square-logo-comments-linkedin-icon-black-981x981.png");
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-size: 40px 40px;
 }
 
 .margin-add {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
-.margin-top-add{
-    margin-top: 40px;
+.margin-top-add {
+  margin-top: 40px;
 }
 
 img {
-    opacity: 0.6;
-  }
-  
+  opacity: 0.6;
+}
+
 img:hover {
-    opacity: 1.0;
-  }
+  opacity: 1;
+}
 
 a {
-    color: black !important;
+  color: black !important;
 }
 
 figcaption {
-    font-style: italic;
-    text-align: center;
+  font-style: italic;
+  text-align: center;
 }
 
 p {
-    text-align: justify;
-    font-size: 18px;
-    padding-left: 10px;
-    padding-right: 5px;
+  text-align: justify;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 5px;
 }
 
 li {
-    font-size: 18px; 
+  font-size: 18px;
+}
+
+.non-opaque {
+  opacity: 1;
 }
 
 /*
